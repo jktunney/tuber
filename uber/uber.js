@@ -6,6 +6,7 @@ var uberClient = new Uber({
     client_secret: 'iL2jtSqCfJu_ZYsw3dsSiJq06gB6-RfUzG-elk7m',
     server_token: '9r2VXLQ_O5_MljtnJC0pP_bYBVgTJ6Vrp21EP6ve',
     name: 'tubrino'
+    'access'
 });
 
 
