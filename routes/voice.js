@@ -100,6 +100,16 @@ exports.transcription = function(request, response) {
         }
     })
 
+
+    uber(transrcipt, function(results,status){
+        if(err){
+            console.error(err)
+        }else{
+            console.log(results)
+        }
+
+    })
+
     SurveyResponse.findById(responseId, function(err, surveyResponse) {
         if (err || !surveyResponse || 
             !surveyResponse.responses[questionIndex]) 
